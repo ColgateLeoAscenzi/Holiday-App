@@ -1,0 +1,25 @@
+{
+  "name": "holiday-app",
+  "version": "1.0.0",
+  "description": "An app designed to quickly get and display holidays and provide information about them",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColgateLeoAscenzi/Holiday-App.git"
+  },
+  "author": "Leo Ascenzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ColgateLeoAscenzi/Holiday-App/issues"
+  },
+  "homepage": "https://github.com/ColgateLeoAscenzi/Holiday-App#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^14.13.0",
+    "socket.io": "^2.3.0"
+  }
+}
